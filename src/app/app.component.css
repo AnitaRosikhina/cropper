@@ -1,0 +1,52 @@
+.block-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-cropper {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.btn-file {
+  border: 1px solid orange;
+  background: white;
+  color: orange;
+  font-size: 12px;
+}
+
+.choose::-webkit-file-upload-button {
+  color: white;
+  display: inline-block;
+  background: orange;
+  border: none;
+  padding: 7px 15px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn-save {
+  border: 2px solid orange;
+  background: white;
+  font-size: 15px;
+  color: orange;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.btn-save:disabled {
+  opacity: 0.4;
+  color: silver;
+  border-color: silver;
+}
+
+.btn-remove {
+  background: orange;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  border: none;
+  height: 25px;
+}
